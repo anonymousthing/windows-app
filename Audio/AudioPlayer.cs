@@ -28,6 +28,7 @@ namespace ListenMoeClient
 
 		public void Play()
 		{
+			provider.ClearBuffer();
 			waveOut.Play();
 		}
 
